@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link';
+import apiHelper from '../helper/apiHelper';
 
 const Application = ({users}) => {
     return (
@@ -9,7 +10,7 @@ const Application = ({users}) => {
             <title>Application</title>
         </Head>
         <div>
-            <h1 className={utilStyles.heading2Xl}>Next JS - Applied concepts</h1>
+            <h2 className={utilStyles.heading2Xl}>Next JS - Applied concepts</h2>
             <hr/>
             <div>
                 <h2 className={utilStyles.headingXl}>Fetch data from API - LIST</h2>
@@ -23,6 +24,10 @@ const Application = ({users}) => {
                         </div>
                     ))
                 }
+            </div>
+            <div>
+                <h2 className={utilStyles.headingXl}>Sample Login - Using live API</h2>
+                <Link href='/login'><a>Login</a></Link>
             </div>
         </div>
         </>

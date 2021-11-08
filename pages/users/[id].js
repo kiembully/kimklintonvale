@@ -1,4 +1,5 @@
 import utilStyles from '../../styles/utils.module.css'
+import apiHelper from '../../helper/apiHelper'
 
 export const getStaticPaths = async () => {
 

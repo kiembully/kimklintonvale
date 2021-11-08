@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import Navbar from './navbar/navbar'
 import Footer from './footer/footer'
-import Router from 'next/router';
 
 export const siteTitle = 'My Profile'
 
