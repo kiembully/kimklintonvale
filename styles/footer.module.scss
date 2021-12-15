@@ -1,0 +1,33 @@
+@import '../styles/variable.scss';
+
+.footerWrap {
+    display: flex;
+    padding: 1rem 0;
+    flex-flow: wrap;
+    span {
+        flex: auto;
+        text-align: center;
+        color: $text-color;
+    }
+    a, span {
+        color: $text-color;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 300;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footerWrap {
+        padding-bottom: 80px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .footerWrap {
+        a, span {
+            text-align: center;
+            flex: auto;
+        }
+    }
+}
