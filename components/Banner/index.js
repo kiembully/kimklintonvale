@@ -1,7 +1,9 @@
+import Profile from "./profile";
+
 const Banner = () => {
     return (
         <div>
-            I am banner
+            <Profile />
         </div>
     );
 }

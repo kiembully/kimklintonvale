@@ -12,7 +12,12 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-size: 1.25rem
+  font-size: 1.25rem;
+}
+
+.block {
+  display: block;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {

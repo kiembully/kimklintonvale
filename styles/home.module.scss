@@ -1,3 +1,51 @@
+@import '../styles/variable.scss';
+
 .homeWrap {
     padding: 0 1rem;
+    display: flex;
+    span {
+        flex: 1 1 auto;
+        &:first-child {
+            padding-right: 20px;
+        }
+        label {
+            font-size: 18px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        >div {
+            button {
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+.carouselWrap {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .homeWrap {
+        flex-flow: column;
+        flex-direction: column-reverse;
+        span {
+            &:first-child {
+                padding-right: 0;
+            }
+            h1 {
+                text-align: justify;
+            }
+            >div {
+                display: flex;
+                button {
+                    flex: auto
+                }
+            }
+        }
+    }
 }

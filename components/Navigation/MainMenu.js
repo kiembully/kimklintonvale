@@ -39,10 +39,10 @@ const TopMenu = () => {
             setValue(newValue);
             }}
         >
-            <BottomNavigationAction onClick={() => onLink("/")} label="Home" icon={<HomeIcon />} />
-            <BottomNavigationAction onClick={() => onLink("/profile")} label="Profile" icon={<PersonIcon />} />
-            <BottomNavigationAction onClick={() => onLink("/portfolio")} label="Portfolio" icon={<ArticleIcon />} />
-            <BottomNavigationAction onClick={() => onLink("/contact")} label="Contact" icon={<ContactPageIcon />} />
+            <BottomNavigationAction onClick={() => onLink("/")}  icon={<HomeIcon />} />
+            <BottomNavigationAction onClick={() => onLink("/profile")}  icon={<PersonIcon />} />
+            <BottomNavigationAction onClick={() => onLink("/portfolio")}  icon={<ArticleIcon />} />
+            <BottomNavigationAction onClick={() => onLink("/contact")}  icon={<ContactPageIcon />} />
         </BottomNavigation>
         </div>
         </>

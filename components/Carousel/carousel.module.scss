@@ -1,0 +1,26 @@
+@import '../../styles/variable.scss';
+
+.carouOuter {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 70px 0;
+    .carouselItem {
+        height: 200px;
+        padding: 10px;
+        width: 200px;
+        .itemWrap {
+            height: 100%;
+            width: 100%;
+            background-color: red;
+            display: block;
+        }
+    }
+}
+// .variable-width {
+//     width: 100%;
+//     .carouselItem {
+//         width: 100%;
+//         max-width: 300px;
+//     }
+// }

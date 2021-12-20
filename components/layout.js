@@ -30,7 +30,7 @@ export default function Layout({children, pageMeta}) {
         </Head>
         <Navigation />
         <div className={styles.main}>
-            <main>
+            <main className={styles.block}>
                 {children}
             </main>
         </div>
