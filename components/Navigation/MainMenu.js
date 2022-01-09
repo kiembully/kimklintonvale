@@ -28,6 +28,7 @@ const TopMenu = () => {
                 <li><Link href='/profile'><a>Profile</a></Link></li>
                 <li><Link href='/portfolio'><a>Portfolio</a></Link></li>
                 <li><Link href='/contact'><a>Contact</a></Link></li>
+                <li><Link href='/nft'><a>NFT</a></Link></li>
             </ul>
         </div>
 
