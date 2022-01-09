@@ -1,5 +1,5 @@
 import { useWeb3React } from "@web3-react/core"
-import { injected } from "../components/wallet/Connectors"
+import { Injected } from "../components/wallet/Connectors"
 import nftStyles from '../styles/nft.module.scss'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
@@ -10,7 +10,7 @@ const nft = () => {
 
     async function connect() {
       try {
-        await activate(injected)
+        await activate(Injected)
       } catch (ex) {
         console.log(ex)
       }
