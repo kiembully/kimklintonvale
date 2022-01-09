@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
-const nft = () => {
+const Nft = () => {
     const { active, account, library, connector, activate, deactivate } = useWeb3React()
 
     async function connect() {
@@ -51,4 +51,4 @@ const nft = () => {
     )
 }
 
-export default nft;
+export default Nft;
