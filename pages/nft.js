@@ -1,5 +1,5 @@
 import { useWeb3React } from "@web3-react/core"
-import { Injected } from "../components/wallet/Connectors"
+import { Injected } from "../components/connectors"
 import nftStyles from '../styles/nft.module.scss'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
