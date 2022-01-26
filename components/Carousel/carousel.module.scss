@@ -1,19 +1,21 @@
 @import '../../styles/variable.scss';
 
 .carouOuter {
-    height: 200px;
     overflow: hidden;
     position: relative;
-    margin: 70px 0;
+    margin: 20px 0 70px 0;
     .carouselItem {
-        height: 200px;
-        padding: 10px;
+        padding: 20px 10px;
         width: 200px;
         .itemWrap {
             height: 100%;
             width: 100%;
-            background-color: red;
             display: block;
+            position: relative;
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+            text-align: center;
         }
     }
 }

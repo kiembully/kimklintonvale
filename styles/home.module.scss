@@ -13,6 +13,8 @@
         }
         h1 {
             font-size: 24px;
+            margin: 20px auto 30px auto;
+            font-weight: 400;
         }
         >div {
             button {
@@ -27,6 +29,10 @@
     max-width: 1200px;
     overflow: hidden;
     padding: 0;
+    h2 {
+        margin: 70px auto 20px auto;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -37,15 +43,29 @@
             &:first-child {
                 padding-right: 0;
             }
+            label {
+                font-size: 14px;
+                display: block;
+                text-align: center;
+            }
             h1 {
                 text-align: justify;
+                font-size: 20px;
             }
             >div {
                 display: flex;
                 button {
-                    flex: auto
+                    flex: auto;
+                    font-size: 12px;
                 }
             }
+        }
+    }
+    .carouselWrap {
+        h2 {
+            margin: 40px auto 20px auto;
+            text-align: center;
+            font-size: 18px;
         }
     }
 }
